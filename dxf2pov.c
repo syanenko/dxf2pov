@@ -51,7 +51,7 @@ Usage: dxf2pov infile [outfile]\n");
 
   int face = 0;
   
-  fwrite("#declare Geometry = mesh\n{\n", 23, 1, fout);
+  fwrite("#declare Geometry = mesh\n{\n", 27, 1, fout);
   while (fgets(line, LINE_MAX, fin) != NULL)
   {
     len = strlen(line);
